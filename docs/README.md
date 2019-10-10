@@ -43,4 +43,4 @@ This is not a training that starts from scratch.
 
 ## Trainer(s)
 
-  * Geert Jan Bex [geertjan.bex@uhasselt.be](mailto:geertjan.bex@uhasselt.be)
+  * Geert Jan Bex ([geertjan.bex@uhasselt.be](mailto:geertjan.bex@uhasselt.be))
