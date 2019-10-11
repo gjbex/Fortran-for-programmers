@@ -1,5 +1,5 @@
 FC = gfortran
-FFLAGS = -O2 -g
+FFLAGS = -O2 -g -Wall
 LDFLAGS =
 LDLIBS = -lm
 
