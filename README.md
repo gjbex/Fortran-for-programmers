@@ -12,7 +12,7 @@ For information on the training, see the website
 1. [`hands-on`](hands-on): directory that contains material for the hands-on sessions.
 1. [`source-code`](source-code): directory that contains sample code written to
    develop the slides and illustrate conceptssource-code.
-1. [`LICENSE`](LICENSE): license information for the material in this repository.
+1. [`License`](LICENSE): license information for the material in this repository.
 1. [Contributing](CONTRIBUTING.md): information on how to contribute to this
    repository.
 1. docs: directory containing the website for this repository.
