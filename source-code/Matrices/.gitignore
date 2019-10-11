@@ -1,0 +1,8 @@
+alloc_test
+bounds_test
+calc_test
+calc_alloc_test
+pointer_test
+subarray_test
+array_init_test
+failed_allocate_test
