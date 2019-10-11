@@ -23,7 +23,7 @@ Note:
 
 ## Hands-on session 1: control flow statements, data types, functions
 
-1. Write a Fortran program that writes the value of the factorial function to the
+1. Write a Fortran program that writes the value of the factorial to the
    screen for the number 0 through 10.  The factorial of *n* is defined as
    *n*! = 1\*2\*3\*...\*(n - 1)\*n.
 
