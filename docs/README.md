@@ -27,12 +27,13 @@ When you complete this training you will be able to
   * 11:30-12:00: procedures
   * 12:00-12:30: hands-on
   * 12:30-13:30: lunch break
-  * 13:30-14:00: modules
-  * 14:00-15:00: file I/O
+  * 13:30-14:30: modules
+  * 14:30-15:00: hands-on
   * 15:00-15:10: coffee break
-  * 15:10-15:30: command line interaction
-  * 15:30-16:00: hands-on
-  * 16:00-16:50: discussion of more advanced topics (e.g., using BLAS or classes)
+  * 15:10-16:00: file I/O
+  * 16:00-16:15: command line interaction
+  * 16:15-16:30: hands-on
+  * 16:30-16:50: discussion of more advanced topics (e.g., using BLAS)
   * 16:50-17:00: wrap up
 
 Slides are available in the [GitHub repository](https://github.com/gjbex/Fortran-for-programmers),
