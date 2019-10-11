@@ -31,8 +31,9 @@ When you complete this training you will be able to
   * 14:00-15:00: file I/O
   * 15:00-15:10: coffee break
   * 15:10-15:30: command line interaction
-  * 15:30-16:30: hands-on
-  * 16:30-17:oo: discussion and wrap up
+  * 15:30-16:00: hands-on
+  * 16:00-16:50: discussion of more advanced topics (e.g., using BLAS or classes)
+  * 16:50-17:00: wrap up
 
 Slides are available in the [GitHub repository](https://github.com/gjbex/Fortran-for-programmers),
 as well as example code and hands-on material.
