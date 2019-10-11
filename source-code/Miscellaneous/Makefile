@@ -1,17 +1,17 @@
-F90 = gfortran
+FC = gfortran
 FFLAGS = -O2 -g
 LDFLAGS =
-LIBS = -lm
+LDLIBS = -lm
 
 APPL = free_source_form_test.exe cli_test.exe env_test.exe
 
 all: $(APPL)
 
 %.exe: %.o
-	$(F90) $(FFLAGS) -o $@ $< $(LDFLAGS) $(LIBS)
+	$(FC) $(FFLAGS) -o $@ $< $(LDFLAGS) $(LDLIBS)
 
 %.o: %.f90
-	$(F90) $(FFLAGS) -c $<
+	$(FC) $(FFLAGS) -c -o $@ $<
 
 clean:
-	rm -f $(APPL) *.o *.mod
+	$(RM) $(APPL) $(wildcard *.o) $(wildcard *.mod)
