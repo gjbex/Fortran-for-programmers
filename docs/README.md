@@ -31,7 +31,7 @@ When you complete this training you will be able to
   * 14:30-15:00: hands-on
   * 15:00-15:10: coffee break
   * 15:10-16:00: file I/O
-  * 16:00-16:15: command line interaction
+  * 16:00-16:15: interacting with the environment
   * 16:15-16:30: hands-on
   * 16:30-16:50: discussion of more advanced topics (e.g., using BLAS)
   * 16:50-17:00: wrap up
