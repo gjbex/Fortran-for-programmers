@@ -7,8 +7,8 @@ For information on the training, see the website
 
 ## What is it?
 
-#. docs: directory containing the website for this repository.
-#. hands-on: directory that contains material for the hands-on sessions.
-#. source-code: directory that contains sample code written to develop the slides and
+1. docs: directory containing the website for this repository.
+1. hands-on: directory that contains material for the hands-on sessions.
+1. source-code: directory that contains sample code written to develop the slides and
    illustrate conceptssource-code.
-#. LICENSE: license information for the material in this repository.
+1. LICENSE: license information for the material in this repository.
