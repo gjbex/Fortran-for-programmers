@@ -20,9 +20,9 @@ When you complete this training you will be able to
 # Content
 
   * 09:00-10:00: basics: control flow statements, data types, functions
-  * 10:00-10:30: arrays and pointers
+  * 10:00-10:30: hands-on
   * 10:30-10:40: coffee break
-  * 10:40-11:15: hands-on
+  * 10:40-11:15: arrays and pointers
   * 11:15-11:30: user defined types/classes
   * 11:30-12:00: procedures
   * 12:00-12:30: hands-on
