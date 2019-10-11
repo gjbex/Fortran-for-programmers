@@ -115,4 +115,6 @@ Note:
    a command line argument, and writes the resulting matrix to a file, the name of
    which is given as a second command line argument.
 
-   You find an example of such a file in the repository.
+   You find an
+   [example of such a file](https://github.com/gjbex/Fortran-for-programmers/blob/master/hands-on/IO/matrix.txt)
+    in the repository.
