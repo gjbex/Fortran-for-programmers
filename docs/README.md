@@ -36,8 +36,10 @@ When you complete this training you will be able to
   * 16:30-16:50: discussion of more advanced topics (e.g., using BLAS)
   * 16:50-17:00: wrap up
 
-Slides are available in the [GitHub repository](https://github.com/gjbex/Fortran-for-programmers),
-as well as example code and hands-on material.
+Slides are available in the
+ [GitHub repository](https://github.com/gjbex/Fortran-for-programmers),
+as well as example code and hands-on material.  The exercises for the
+[hands-on sessions are on the website](hands-on/README.md).
 
 
 # Target audience
