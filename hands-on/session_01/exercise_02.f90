@@ -1,10 +1,10 @@
 program prime_number
-      implicit none
-      integer, parameter :: n_min = 1, n_max = 40
-      integer :: n, divisor
-      logical :: is_prime
+    implicit none
+    integer, parameter :: n_min = 1, n_max = 40
+    integer :: n, divisor
+    logical :: is_prime
 
-      do n = n_min, n_max
+    do n = n_min, n_max
         if (n == 1) then
             print *, n, 'not prime'
         else
@@ -20,6 +20,6 @@ program prime_number
                 print *, n, 'prime'
             end if
         end if
-      end do
+    end do
 
 end program prime_number
