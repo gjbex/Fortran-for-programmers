@@ -72,10 +72,6 @@ Note:
    absolute value is less than a given real number that is given as the second
    argument to the function.  Pay attention to the intent of the arguments.
 
-2. Write a Fortran program that factorizes the integers 1 through 50, and prints
-   the factors for each number to the screen, e.g., for 12 the output would be
-   2, 2 and 3 (since 2\*2\*3 = 12).
-
 
 ## Hands-on session 3: user-defined types, modules and object-oriented programming
 
