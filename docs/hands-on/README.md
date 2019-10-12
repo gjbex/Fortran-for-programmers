@@ -63,6 +63,9 @@ Note:
    through 20 to the screen.  The Fibonacci number fib(*n*) for *n* is defined as
    fib(*n* - 1) + fib(*n* - 2), and fib(0) = 1, fib(1) = 1.
 
+   As an extra challenge, implment a non-recursive Fibonacci function, and compare
+   the performance of the recursive and the non-recursive version.
+
 1. Write a procedure that modifies a 2D array passed as an argument, and modifying
    it in-place.  The elements of the 2D array should be set to 0.0 if the element's
    absolute value is less than a given real number that is given as the second
