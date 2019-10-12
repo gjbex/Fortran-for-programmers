@@ -38,19 +38,18 @@ Note:
 
 ## Hands-on session 2: Arrays and procedures
 
-1. Initialize two 2D arrays with double precision numbers from a uniform random
-   distribution between 0 and 1.  The first array is 1000 by 2000, the second
-   2000 by 3000.  Write two versions of this program
+1. Initialize two 2D arrays with all elements equal to double precision 1.0.
+   The first array is 1000 by 2000, the second 2000 by 300.  Write two versions
+   of this program,
    * one that implements the dot-product of two matrices as three nested iterations, i.e.,
    `C(i, j) = A(i, 1)*B(1, j) + A(i, 2)*B(2, j) + ... + A(i, 2000)*B(2000, j)` for
    all `i` between 1 and 1000, and all `j` between 1 and 3000.
-   * one that used Fortran's `dot` function.
+   * one that used Fortran's `matmul` function.
 
    Compare the performance of these two programs.
 
-1. Initialize three 2D 2000 by 3000 arrays with double precision numbers from a
-   uniform random distribution between 0 and 1.  Write three applications to
-   compute `D = 5.0*A*B + C/1.5 + 8.0`.
+1. Initialize three 2D 20000 by 3000 arrays with all elements equal to double
+   precision 1.0.  Write three applications to compute `D = 5.0*A*B + C/1.5 + 8.0`,
    * the first uses the given array expression,
    * the second uses `FORALL` (can you use this statement here?),
    * the third has explicit `DO` loops over the array indices.
