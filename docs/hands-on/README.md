@@ -66,15 +66,13 @@ Note:
    As an extra challenge, implment a non-recursive Fibonacci function, and compare
    the performance of the recursive and the non-recursive version.
 
-1. Write a procedure that modifies a 2D array passed as an argument, and modifying
+1. Write a procedure that modifies a 2D array containing duoble precision floating
+   point values passed as an argument, and modifying
    it in-place.  The elements of the 2D array should be set to 0.0 if the element's
    absolute value is less than a given real number that is given as the second
    argument to the function.  Pay attention to the intent of the arguments.
 
-1. Implement a non-recursive version of the program to compute and display the
-   Fibonacci numbers.
-
-1. Write a Fortran program that factorizes the integers 1 through 50, and prints
+2. Write a Fortran program that factorizes the integers 1 through 50, and prints
    the factors for each number to the screen, e.g., for 12 the output would be
    2, 2 and 3 (since 2\*2\*3 = 12).
 
