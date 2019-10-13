@@ -79,7 +79,8 @@ Note:
    statistics information.  It should have the fields `sum`, `sum2` and `n`
    representing the sum of the data, the sum of the squares of the data, and
    the number of data items respectively.  The module should also define
-   a procedure that takes a variable of this type as an argument and computes
+   a procedure to initialize a variable of the user defined type, that adds
+   a data value, one that takes a variable of this type as an argument and computes
    the mean value, and another one that computes the standard deviation.
 
 1. Write a module that defines a class to maintain statistics over a sliding
