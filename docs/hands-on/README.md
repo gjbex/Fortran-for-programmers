@@ -88,13 +88,6 @@ Note:
    compute descriptive statistics (mean, standard deviation) over
     a window of size you specify when the object is created.
 
-1. Implement a linked list class using pointers that supports
-   * appending an item to the list,
-   * removing the last item from a list,
-   * inserting an element in the list at a location specified by index,
-   * remove an element in the list specified by its index,
-   * checking whether a value occurs as an element in the list.
-
 
 ## Hands-on session 4: file I/O and interacting with the environment
 
