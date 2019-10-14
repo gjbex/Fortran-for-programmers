@@ -85,7 +85,7 @@ Note:
 
 1. Write a module that defines a class to maintain statistics over a sliding
    window.  You can add as many data values to such an object, but it will
-   compute descriptive statistics (mean, standard deviation and median) over
+   compute descriptive statistics (mean, standard deviation) over
     a window of size you specify when the object is created.
 
 1. Implement a linked list class using pointers that supports
