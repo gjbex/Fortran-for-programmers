@@ -86,7 +86,7 @@ Note:
 1. Write a module that defines a class to maintain statistics over a sliding
    window.  You can add as many data values to such an object, but it will
    compute descriptive statistics (mean, standard deviation) over
-    a window of size you specify when the object is created.
+    a window of a size you specify when the object is created.
 
 
 ## Hands-on session 4: file I/O and interacting with the environment
@@ -102,8 +102,8 @@ Note:
    * the following lines each represent a row of the 2D array.
 
    The program multiplies each element of the array by a number that is given as
-   a command line argument, and writes the resulting matrix to a file, the name of
-   which is given as a second command line argument.
+   a second command line argument, and writes the resulting matrix to a file,
+   the name of which is given as a third command line argument.
 
    You find an
    [example of such a file](https://github.com/gjbex/Fortran-for-programmers/blob/master/hands-on/IO/matrix.txt)

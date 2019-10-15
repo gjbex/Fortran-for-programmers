@@ -2,7 +2,10 @@ FC = gfortran
 FFLAGS = -g -Wall
 LDLIBS = -lm
 
-all: exercise_01.exe
+all: exercise_01.exe exercise_02.exe
+
+exercise_02.exe: exercise_02.o
+	$(FC) $(FFLAGS) -o $@ $^ $(LDLIBS)
 
 %.exe: %_mod.o %.o
 	$(FC) $(FFLAGS) -o $@ $^ $(LDLIBS)
