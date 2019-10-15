@@ -23,9 +23,9 @@ Note:
 
 ## Hands-on session 1: control flow statements, data types, functions
 
-1. Write a Fortran program that writes the value of the factorial function to the
+1. Write a Fortran program that writes the value of the factorial to the
    screen for the number 0 through 10.  The factorial of *n* is defined as
-   *n*! = 1\*2\*3\*...\*(n - 1)\*n.
+   *n*! = 1\*2\*3\*...\*(*n* - 1)\**n*.
 
 1. Write a Fortran program that checks whether the numbers 1 though 40 are prime
    numbers, writing the result of each test to the screen.  A number is prime when
@@ -38,19 +38,18 @@ Note:
 
 ## Hands-on session 2: Arrays and procedures
 
-1. Initialize two 2D arrays with double precision numbers from a uniform random
-   distribution between 0 and 1.  The first array is 1000 by 2000, the second
-   2000 by 3000.  Write two versions of this program
+1. Initialize two 2D arrays with all elements equal to double precision 1.0.
+   The first array is 1000 by 2000, the second 2000 by 300.  Write two versions
+   of this program,
    * one that implements the dot-product of two matrices as three nested iterations, i.e.,
    `C(i, j) = A(i, 1)*B(1, j) + A(i, 2)*B(2, j) + ... + A(i, 2000)*B(2000, j)` for
    all `i` between 1 and 1000, and all `j` between 1 and 3000.
-   * one that used Fortran's `dot` function.
+   * one that used Fortran's `matmul` function.
 
    Compare the performance of these two programs.
 
-1. Initialize three 2D 2000 by 3000 arrays with double precision numbers from a
-   uniform random distribution between 0 and 1.  Write three applications to
-   compute `D = 5.0*A*B + C/1.5 + 8.0`.
+1. Initialize three 2D 20000 by 3000 arrays with all elements equal to double
+   precision 1.0.  Write three applications to compute `D = 5.0*A*B + C/1.5 + 8.0`,
    * the first uses the given array expression,
    * the second uses `FORALL` (can you use this statement here?),
    * the third has explicit `DO` loops over the array indices.
@@ -64,17 +63,14 @@ Note:
    through 20 to the screen.  The Fibonacci number fib(*n*) for *n* is defined as
    fib(*n* - 1) + fib(*n* - 2), and fib(0) = 1, fib(1) = 1.
 
-1. Write a procedure that modifies a 2D array passed as an argument, and modifying
+   As an extra challenge, implment a non-recursive Fibonacci function, and compare
+   the performance of the recursive and the non-recursive version.
+
+1. Write a procedure that modifies a 2D array containing duoble precision floating
+   point values passed as an argument, and modifying
    it in-place.  The elements of the 2D array should be set to 0.0 if the element's
    absolute value is less than a given real number that is given as the second
    argument to the function.  Pay attention to the intent of the arguments.
-
-1. Implement a non-recursive version of the program to compute and display the
-   Fibonacci numbers.
-
-1. Write a Fortran program that factorizes the integers 1 through 50, and prints
-   the factors for each number to the screen, e.g., for 12 the output would be
-   2, 2 and 3 (since 2\*2\*3 = 12).
 
 
 ## Hands-on session 3: user-defined types, modules and object-oriented programming
@@ -83,20 +79,14 @@ Note:
    statistics information.  It should have the fields `sum`, `sum2` and `n`
    representing the sum of the data, the sum of the squares of the data, and
    the number of data items respectively.  The module should also define
-   a procedure that takes a variable of this type as an argument and computes
+   a procedure to initialize a variable of the user defined type, that adds
+   a data value, one that takes a variable of this type as an argument and computes
    the mean value, and another one that computes the standard deviation.
 
 1. Write a module that defines a class to maintain statistics over a sliding
    window.  You can add as many data values to such an object, but it will
-   compute descriptive statistics (mean, standard deviation and median) over
-    a window of size you specify when the object is created.
-
-1. Implement a linked list class using pointers that supports
-   * appending an item to the list,
-   * removing the last item from a list,
-   * inserting an element in the list at a location specified by index,
-   * remove an element in the list specified by its index,
-   * checking whether a value occurs as an element in the list.
+   compute descriptive statistics (mean, standard deviation) over
+    a window of a size you specify when the object is created.
 
 
 ## Hands-on session 4: file I/O and interacting with the environment
@@ -112,8 +102,8 @@ Note:
    * the following lines each represent a row of the 2D array.
 
    The program multiplies each element of the array by a number that is given as
-   a command line argument, and writes the resulting matrix to a file, the name of
-   which is given as a second command line argument.
+   a second command line argument, and writes the resulting matrix to a file,
+   the name of which is given as a third command line argument.
 
    You find an
    [example of such a file](https://github.com/gjbex/Fortran-for-programmers/blob/master/hands-on/IO/matrix.txt)
