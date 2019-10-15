@@ -19,7 +19,7 @@ When you complete this training you will be able to
 
 # Schedule
 
-1. Day one
+## Session one
 
   | Time        | Subject                                                |
   |-------------|--------------------------------------------------------|
@@ -31,7 +31,7 @@ When you complete this training you will be able to
   | 12:30-12:40 | user defined types |
   | 12:40-13:00 | hands-on session 2 |
 
-1. Day two
+## Session two
 
   | Time        | Subject                                                |
   |-------------|--------------------------------------------------------|
