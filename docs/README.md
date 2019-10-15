@@ -33,6 +33,8 @@ When you complete this training you will be able to
 
 1. Day two
 
+  | Time        | Subject                                                |
+  |-------------|--------------------------------------------------------|
   | 09:00-09:15 | procedures |
   | 09:15-10:30 | modules and object oriented programming |
   | 10:30-10:50 | hands-on session 3 |
