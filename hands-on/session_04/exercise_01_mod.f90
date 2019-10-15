@@ -4,10 +4,11 @@ module statistics
 
     private
     type, public :: stats_type
+        private
         real(kind=dp) :: data_sum, data_sum2
         integer :: n
     end type stats_type
-    public :: init_stats, add_stats, mean_stats, stddev_stats
+    public :: init_stats, add_stats, mean_stats, stddev_stats, nr_stats
 
 contains
 
@@ -41,5 +42,11 @@ contains
         mean_value = mean_stats(stats)
         stddev_stats = sqrt(stats%data_sum2/stats%n - mean_value*mean_value)
     end function stddev_stats
+
+    integer function nr_stats(stats)
+        implicit none
+        type(stats_type), intent(in) :: stats
+        nr_stats = stats%n
+    end function nr_stats
 
 end module statistics

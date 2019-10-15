@@ -25,7 +25,7 @@ Note:
 
 1. Write a Fortran program that writes the value of the factorial to the
    screen for the number 0 through 10.  The factorial of *n* is defined as
-   *n*! = 1\*2\*3\*...\*(n - 1)\*n.
+   *n*! = 1\*2\*3\*...\*(*n* - 1)\**n*.
 
 1. Write a Fortran program that checks whether the numbers 1 though 40 are prime
    numbers, writing the result of each test to the screen.  A number is prime when
@@ -79,20 +79,14 @@ Note:
    statistics information.  It should have the fields `sum`, `sum2` and `n`
    representing the sum of the data, the sum of the squares of the data, and
    the number of data items respectively.  The module should also define
-   a procedure that takes a variable of this type as an argument and computes
+   a procedure to initialize a variable of the user defined type, that adds
+   a data value, one that takes a variable of this type as an argument and computes
    the mean value, and another one that computes the standard deviation.
 
 1. Write a module that defines a class to maintain statistics over a sliding
    window.  You can add as many data values to such an object, but it will
-   compute descriptive statistics (mean, standard deviation and median) over
+   compute descriptive statistics (mean, standard deviation) over
     a window of size you specify when the object is created.
-
-1. Implement a linked list class using pointers that supports
-   * appending an item to the list,
-   * removing the last item from a list,
-   * inserting an element in the list at a location specified by index,
-   * remove an element in the list specified by its index,
-   * checking whether a value occurs as an element in the list.
 
 
 ## Hands-on session 4: file I/O and interacting with the environment
