@@ -17,26 +17,31 @@ When you complete this training you will be able to
   * know about best practices and pitfalls for Fortran programmers.
 
 
-# Content
+# Schedule
+
+1. Day one
 
   | Time        | Subject                                                |
   |-------------|--------------------------------------------------------|
-  | 09:00-10:00 | basics: control flow statements, data types, functions |
-  | 10:00-10:30 | hands-on session 1 |
-  | 10:30-10:40 | coffee break |
-  | 10:40-11:15 | arrays and pointers |
-  | 11:15-11:30 | user defined types/classes |
-  | 11:30-12:00 | procedures |
-  | 12:00-12:30 | hands-on session 2 |
-  | 12:30-13:30 | lunch break |
-  | 13:30-14:30 | modules |
-  | 14:30-15:00 | hands-on session 3 |
-  | 15:00-15:10 | coffee break |
-  | 15:10-16:00 | file I/O |
-  | 16:00-16:15 | interacting with the environment |
-  | 16:15-16:30 | hands-on session 4 |
-  | 16:30-16:50 | discussion of more advanced topics (e.g., using BLAS) |
-  | 16:50-17:00 | wrap up |
+  | 09:00-09:05 | introduction and motivation |
+  | 09:05-10:30 | basics: control flow statements, data types |
+  | 10:30-10:50 | hands-on session 1 |
+  | 10:50-11:00 | coffee break |
+  | 11:00-12:30 | arrays and pointers |
+  | 12:30-12:40 | user defined types |
+  | 12:40-13:00 | hands-on session 2 |
+
+1. Day two
+
+  | 09:00-09:15 | procedures |
+  | 09:15-10:30 | modules and object oriented programming |
+  | 10:30-10:50 | hands-on session 3 |
+  | 10:50-11:00 | coffee break |
+  | 11:00-12:00 | file I/O |
+  | 12:00-12:10 | interacting with the environment |
+  | 12:10-12:30 | hands-on session 4 |
+  | 12:30-12:50 | discussion of more advanced topics (e.g., using BLAS/Lapack, HDF5) |
+  | 12:50-13:00 | wrap up |
 
 Slides are available in the
  [GitHub repository](https://github.com/gjbex/Fortran-for-programmers),
