@@ -25,7 +25,7 @@ Note:
 
 1. Write a Fortran program that writes the value of the factorial to the
    screen for the number 0 through 10.  The factorial of *n* is defined as
-   *n*! = 1\*2\*3\*...\*(n - 1)\*n.
+   *n*! = 1\*2\*3\*...\*(*n* - 1)\**n*.
 
 1. Write a Fortran program that checks whether the numbers 1 though 40 are prime
    numbers, writing the result of each test to the screen.  A number is prime when
@@ -86,7 +86,7 @@ Note:
 1. Write a module that defines a class to maintain statistics over a sliding
    window.  You can add as many data values to such an object, but it will
    compute descriptive statistics (mean, standard deviation) over
-    a window of size you specify when the object is created.
+    a window of a size you specify when the object is created.
 
 
 ## Hands-on session 4: file I/O and interacting with the environment
@@ -102,8 +102,8 @@ Note:
    * the following lines each represent a row of the 2D array.
 
    The program multiplies each element of the array by a number that is given as
-   a command line argument, and writes the resulting matrix to a file, the name of
-   which is given as a second command line argument.
+   a second command line argument, and writes the resulting matrix to a file,
+   the name of which is given as a third command line argument.
 
    You find an
    [example of such a file](https://github.com/gjbex/Fortran-for-programmers/blob/master/hands-on/IO/matrix.txt)
