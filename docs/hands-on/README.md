@@ -25,7 +25,7 @@ Note:
 
 1. Write a Fortran program that writes the value of the factorial to the
    screen for the number 0 through 10.  The factorial of *n* is defined as
-   *n*! = 1\*2\*3\*...\*(n - 1)\*n.
+   *n*! = 1\*2\*3\*...\*(*n* - 1)\**n*.
 
 1. Write a Fortran program that checks whether the numbers 1 though 40 are prime
    numbers, writing the result of each test to the screen.  A number is prime when
