@@ -75,6 +75,13 @@ If you plan to do Fortran programming in a Linux or HPC environment you should
 be familiar with these as well.
 
 
+## Level
+
+* Introductory: 40 %
+* Intermediate: 40 %
+* Advanced: 20 %
+
+
 ## Trainer(s)
 
   * Geert Jan Bex ([geertjan.bex@uhasselt.be](mailto:geertjan.bex@uhasselt.be))
