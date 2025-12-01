@@ -74,6 +74,14 @@ This is not a training that starts from scratch.
 If you plan to do Fortran programming in a Linux or HPC environment you should
 be familiar with these as well.
 
+For following along hands-on, you need
+* laptop or desktop with internet access.
+* a Fortran compiler, either
+  * on a system set up so you can connect to an HPC system, an account on an HPC
+    system (e.g., VSC, CECI, ...), compute credits if that is required to run
+    jobs on the HPC system if you want to use an HPC system, or
+  * on your own system.
+
 
 ## Level
 
