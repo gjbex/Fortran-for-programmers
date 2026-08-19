@@ -1,0 +1,179 @@
+schema_version = 2
+id = "fortran-for-programmers"
+title = "Fortran for programmers"
+content_language = "en"
+summary = """
+Fortran is used a lot in the context of HPC. For many, it has a reputation of being an old and ugly programming language. However, modern Fortran is a far cry from Fortran 77 that its detractors have in mind. Fortran 2003/2008 is a language that is well tailored towards scientific computing. This training introduces the language and its features.
+"""
+languages = ["Fortran"]
+
+[[learning_outcomes]]
+statement = "Read and understand well-written Fortran code."
+competencies = ["fortran.read-and-write-idiomatic-programs"]
+
+[[learning_outcomes]]
+statement = "Write small to medium Fortran programs in an idiomatic style."
+competencies = ["fortran.read-and-write-idiomatic-programs"]
+
+[[learning_outcomes]]
+statement = "Use arrays, procedures, modules, and user-defined types effectively."
+competencies = ["fortran.arrays-and-procedures", "fortran.modules-and-derived-types"]
+
+[[learning_outcomes]]
+statement = "Recognize some best practices and common pitfalls for Fortran programmers."
+competencies = ["fortran.apply-best-practices"]
+
+[[learning_outcomes]]
+statement = "Have a solid foundation for follow-up work in scientific and high-performance Fortran programming."
+
+[source]
+metadata_document = "docs/README.md"
+repository_url = "https://github.com/gjbex/Fortran-for-programmers/"
+website_url = "https://gjbex.github.io/Fortran-for-programmers/"
+license = "CC-BY-4.0"
+
+[delivery]
+duration_minutes = 420
+duration_kind = "fixed"
+session_count = 2
+target_session_duration_minutes = 210
+schedule_complete = true
+description = """
+Total duration: 7 hours, split over two sessions. Total duration session 1: 3.5 hours Total duration, session 2: 3.5 hours
+"""
+
+[audience]
+description = """
+This training is for you if you already know how to program in another language and want to learn modern Fortran for scientific applications.
+"""
+
+[prerequisites]
+summary = """
+You will need experience programming in another programming language. This is not a training that starts from scratch. If you plan to do Fortran programming in a Linux or HPC environment you should be familiar with these as well. More concretely, participants should already be comfortable with the following: * variables, expressions, control flow, and writing functions or procedures in some other programming language; * basic data structures such as arrays/lists and records/struct-like types; * reading short programs and understanding how data flows through them; * basic problem decomposition into helper functions, procedures, or modules; * compiling or running programs from the command line at a basic level; * working in a shell environment well enough to edit files, run commands, and inspect output. You do not need prior experience with Fortran itself, modules, array syntax, derived types, Fortran object-oriented programming, BLAS/LAPACK, or HDF5. Those are part of the training itself.
+"""
+competencies = ["programming.control-flow", "programming.functions", "programming.basic-data-structures", "programming.program-decomposition", "programming.read-and-trace-code", "command-line.run-or-compile-programs", "shell.edit-run-inspect"]
+
+[self_assessment]
+introduction = """
+If you can do most of the tasks below in some programming language, you are likely ready for this training.
+"""
+tasks = [
+  "Write a function that computes the average of a list or array of numbers.",
+  "Loop over data and compute a derived result such as a sum, maximum, or count.",
+  "Use `if`/`else` or a `switch`-like construct to classify values into cases.",
+  "Split a program into a few helper functions or files.",
+  "Read data from a text file and print a simple summary.",
+  "Read a short program and explain what it does.",
+  "Compile or run a small program from the command line.",
+  "Make a small change to an existing program and run it again."
+]
+
+[requirements]
+software = [
+  "Laptop or desktop with internet access.",
+  "A Fortran compiler, either.",
+  "On a system set up so you can connect to an HPC system, an account on an HPC system (e.g., VSC, CECI, ...), compute credits if that is required to run jobs on the HPC system if you want to use an HPC system, or.",
+  "On your own system."
+]
+
+[level]
+introductory_percent = 45
+intermediate_percent = 40
+advanced_percent = 15
+description = """
+For participants who already have programming experience in another language, the material in this training is approximately These percentages describe the level of the Fortran and scientific-computing topics covered in the training, not the participants' general programming background.
+"""
+
+[[materials]]
+kind = "slides"
+path = "fortran_for_programmers.pptx"
+
+[[materials]]
+kind = "source-code"
+path = "source-code"
+
+[[materials]]
+kind = "exercises"
+path = "hands-on"
+
+[[trainers]]
+name = "Geert Jan Bex"
+email = "geertjan.bex@uhasselt.be"
+
+[[maintainers]]
+name = "Geert Jan Bex"
+email = "geertjan.bex@uhasselt.be"
+
+[[sessions]]
+id = "session-1"
+title = "Session one"
+duration_minutes = 210
+
+[[sessions.items]]
+subject = "introduction and motivation"
+duration_minutes = 5
+
+[[sessions.items]]
+subject = "basics: control flow statements, data types"
+duration_minutes = 85
+
+[[sessions.items]]
+subject = "hands-on session 1"
+duration_minutes = 20
+
+[[sessions.items]]
+subject = "coffee break"
+duration_minutes = 10
+
+[[sessions.items]]
+subject = "arrays and pointers"
+duration_minutes = 30
+
+[[sessions.items]]
+subject = "user defined types"
+duration_minutes = 10
+
+[[sessions.items]]
+subject = "procedures"
+duration_minutes = 30
+
+[[sessions.items]]
+subject = "hands-on session 2"
+duration_minutes = 20
+
+[[sessions]]
+id = "session-2"
+title = "Session two"
+duration_minutes = 210
+
+[[sessions.items]]
+subject = "modules and object oriented programming"
+duration_minutes = 70
+
+[[sessions.items]]
+subject = "hands-on session 3"
+duration_minutes = 20
+
+[[sessions.items]]
+subject = "coffee break"
+duration_minutes = 10
+
+[[sessions.items]]
+subject = "file I/O"
+duration_minutes = 50
+
+[[sessions.items]]
+subject = "interacting with the environment"
+duration_minutes = 10
+
+[[sessions.items]]
+subject = "hands-on session 4"
+duration_minutes = 20
+
+[[sessions.items]]
+subject = "discussion of more advanced topics (e.g., using BLAS/Lapack, HDF5)"
+duration_minutes = 20
+
+[[sessions.items]]
+subject = "wrap up"
+duration_minutes = 10
