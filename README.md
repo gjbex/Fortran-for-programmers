@@ -12,6 +12,9 @@ For information on the training, see the website
 1. [`hands-on`](hands-on): directory that contains material for the hands-on sessions.
 1. [`source-code`](source-code): directory that contains sample code written to
    develop the slides and illustrate concepts.
+1. [`fortran_false_friends_by_language.md`](fortran_false_friends_by_language.md):
+   notes on habits that do not translate directly from C, C++, Python, R,
+   MATLAB, or Julia to Fortran.
 1. [License](LICENSE): license information for the material in this repository.
 1. [Contributing](CONTRIBUTING.md): information on how to contribute to this
    repository.
