@@ -15,6 +15,9 @@ For information on the training, see the website
 1. [`fortran_false_friends_by_language.md`](fortran_false_friends_by_language.md):
    notes on habits that do not translate directly from C, C++, Python, R,
    MATLAB, or Julia to Fortran.
+1. [`fortran_hpc_compiler_standard_support.md`](fortran_hpc_compiler_standard_support.md):
+   notes on the support of Fortran standards by compilers used in high-performance
+   computing (2026-11-18).
 1. [License](LICENSE): license information for the material in this repository.
 1. [Contributing](CONTRIBUTING.md): information on how to contribute to this
    repository.
